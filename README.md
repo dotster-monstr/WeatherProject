@@ -14,4 +14,4 @@
 1. Убедитесь, что у вас установлен Python (версия 3.6 или выше).
 2. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/username/repository.git
+   [git clone https://github.com/username/repository.git](https://github.com/dotster-monstr/WeatherProject)
