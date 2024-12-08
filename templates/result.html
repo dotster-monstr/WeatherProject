@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles_additional.css') }}">
+    <title>Результаты проверки погоды</title>
+</head>
+<body>
+    <h1>Результаты проверки погодных условий</h1>
+
+    <h2>Начальный город {{start_city}}:</h2>
+    <p>{{ start_weather }}</p>
+
+    <h2>Конечный город {{ end_city }}:</h2>
+    <p>{{ end_weather }}</p>
+
+    <a href="/">Назад к форме</a>
+</body>
+</html>
